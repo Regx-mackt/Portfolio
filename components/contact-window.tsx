@@ -29,7 +29,7 @@ export function ContactWindow({ onClose, onMaximize, isMaximized, totalWindows }
           <div className="space-y-3">
             <div className="flex items-center gap-2">
               <Mail className="w-4 h-4 sm:w-5 sm:h-5 shrink-0 text-foreground" />
-              <p className="text-xs sm:text-sm text-foreground">thomas.noulelis@gmail.com</p>
+              <p className="text-xs sm:text-sm text-foreground">Thomas.Noulelis@gmail.com</p>
             </div>
             <div className="flex items-center gap-2">
               <Phone className="w-4 h-4 sm:w-5 sm:h-5 shrink-0 text-foreground" />

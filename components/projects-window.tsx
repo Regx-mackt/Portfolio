@@ -27,22 +27,19 @@ export function ProjectsWindow({ onClose, onMaximize, isMaximized, totalWindows 
             <div className="flex flex-col sm:flex-row sm:items-start justify-between mb-2">
               <div>
                 <h3 className="font-medium text-sm sm:text-base text-foreground">Technical Lead at TED AI</h3>
-                <p className="text-xs sm:text-sm text-muted-foreground">San Francisco, CA</p>
+                <p className="text-xs sm:text-sm text-muted-foreground">San Francisco Bay Area</p>
               </div>
               <span className="text-xs sm:text-sm text-muted-foreground mt-1 sm:mt-0">May 2023 - Present</span>
             </div>
             <ul className="text-xs sm:text-sm space-y-1 list-disc pl-4 text-muted-foreground">
               <li>
-                Oversaw a team of 100+ volunteers to plan and execute the world's first AI-focused TED Conference,
-                delivering a sold-out event.
+                Lead 100+ volunteers to launch the world's first AI-focused TED Conference, building a website that
+                streamlined collaboration for 50+ speakers and 1,000+ attendees.
               </li>
-              <li>Unified outputs from multiple workstreams, managing logistics, design, and website development.</li>
-              <li>Ensured leadership had timely, data-backed insights for swift decision-making.</li>
+              <li>
+                Drive agile workflows with daily stand-ups and weekly demos, keeping cross-functional teams aligned.
+              </li>
             </ul>
-            <p className="text-xs sm:text-sm mt-2 text-foreground">
-              Key Achievement: Drove the successful launch of a pioneering AI conference, showcasing expertise in both
-              project management and technical direction.
-            </p>
           </div>
 
           <div className="border rounded-lg p-3 sm:p-4 bg-white dark:bg-white/5">
@@ -55,19 +52,14 @@ export function ProjectsWindow({ onClose, onMaximize, isMaximized, totalWindows 
             </div>
             <ul className="text-xs sm:text-sm space-y-1 list-disc pl-4 text-muted-foreground">
               <li>
-                Led the strategic pivot from NFTs to AI-driven music production, enabling artists to create immersive
-                new sounds.
+                Pivoted company from NFTs to generative AI, launching AI music tools that redefined music production
+                workflows.
               </li>
               <li>
-                Conducted comprehensive market research to identify opportunities for generative AI in music, shaping a
-                product roadmap that aligned with industry trends.
+                Built and led engineering, design, and marketing teams to ship high-impact features on tight timelines.
               </li>
-              <li>Coordinated cross-functional teams, ensuring on-time delivery of high-impact features.</li>
+              <li>Conducted market research to validate a new roadmap, securing buy-in from stakeholders.</li>
             </ul>
-            <p className="text-xs sm:text-sm mt-2 text-foreground">
-              Key Achievement: Repositioned the company direction within three months, laying the foundation for
-              cutting-edge AI models that redefine the music industry.
-            </p>
           </div>
 
           <div className="border rounded-lg p-3 sm:p-4 bg-white dark:bg-white/5">
@@ -76,47 +68,39 @@ export function ProjectsWindow({ onClose, onMaximize, isMaximized, totalWindows 
                 <h3 className="font-medium text-sm sm:text-base text-foreground">
                   Senior Product Manager at Sharecare
                 </h3>
-                <p className="text-xs sm:text-sm text-muted-foreground">Palo Alto, CA</p>
+                <p className="text-xs sm:text-sm text-muted-foreground">San Francisco Bay Area</p>
               </div>
               <span className="text-xs sm:text-sm text-muted-foreground mt-1 sm:mt-0">Oct 2019 - Apr 2023</span>
             </div>
             <ul className="text-xs sm:text-sm space-y-1 list-disc pl-4 text-muted-foreground">
               <li>
-                Drove the creation of Smart Omix, a platform accelerating medical research with up to 60% improved
-                patient recruitment and a 20–30% drop in participant dropout rates.
+                Launched Smart Omix, a digital platform that cut patient recruitment time by 60%, reduced dropouts by
+                20-30%, and sped enrollment by 30-40%.
               </li>
               <li>
-                Collaborated with engineering, design, and clinical experts to decentralize clinical trials, reducing
-                enrollment time by 30–40%.
+                Defined product specs and led design/engineering teams using Jira, Figma, and Looker to deliver scalable
+                web and mobile solutions.
               </li>
               <li>
-                Presented business cases for scalable product architecture in a rapidly growing market, valued at $4.26B
-                in 2021 and projected to grow 14–15% annually through 2030.
+                Explored large language models to streamline processes, setting the stage for AI-driven enhancements.
               </li>
             </ul>
-            <p className="text-xs sm:text-sm mt-2 text-foreground">
-              Key Achievement: Successfully recruited hundreds of patients for the first clinical trials on schedule,
-              showcasing the platform's effectiveness in real-world conditions.
-            </p>
           </div>
 
           <div className="border rounded-lg p-3 sm:p-4 bg-white dark:bg-white/5">
             <div className="flex flex-col sm:flex-row sm:items-start justify-between mb-2">
               <div>
-                <h3 className="font-medium text-sm sm:text-base text-foreground">Head of Product at Monmentor.fr</h3>
+                <h3 className="font-medium text-sm sm:text-base text-foreground">Head of Product at monmentor.fr</h3>
                 <p className="text-xs sm:text-sm text-muted-foreground">Paris, France</p>
               </div>
               <span className="text-xs sm:text-sm text-muted-foreground mt-1 sm:mt-0">Jun 2017 - May 2019</span>
             </div>
             <ul className="text-xs sm:text-sm space-y-1 list-disc pl-4 text-muted-foreground">
               <li>
-                Defined and analyzed user needs to guide product development for a mentoring platform aimed at talents,
-                managers, and executives.
+                Developed a mentoring platform for talents and executives, shaping strategy through deep customer
+                insights.
               </li>
-              <li>
-                Built customer support tools and processes, acting as the liaison between the CEO, technical teams, and
-                end users.
-              </li>
+              <li>Bridged CEO, tech teams, and clients to align product vision with business goals.</li>
             </ul>
           </div>
 
@@ -127,22 +111,34 @@ export function ProjectsWindow({ onClose, onMaximize, isMaximized, totalWindows 
                 <div className="flex flex-col sm:flex-row sm:items-start justify-between">
                   <div>
                     <h4 className="font-medium text-sm sm:text-base text-foreground">
-                      Expert in Digital Transformation & Technology
+                      M.S. in Digital Technology & Product Management
                     </h4>
-                    <p className="text-xs sm:text-sm text-muted-foreground">Hetic, Paris, France</p>
-                    <p className="text-xs sm:text-sm text-muted-foreground">Master's-equivalent in Computer Science</p>
+                    <p className="text-xs sm:text-sm text-muted-foreground">HETIC, Paris, France</p>
+                    <p className="text-xs sm:text-sm text-muted-foreground">
+                      Grande École Program (France), Equivalent to U.S. Master's
+                    </p>
                   </div>
+                  <span className="text-xs sm:text-sm text-muted-foreground mt-1 sm:mt-0">2015 - 2018</span>
                 </div>
               </div>
 
               <div className="border rounded-lg p-3 sm:p-4 bg-white dark:bg-white/5">
                 <div className="flex flex-col sm:flex-row sm:items-start justify-between">
                   <div>
-                    <h4 className="font-medium text-sm sm:text-base text-foreground">
-                      Computer Science, Economics & Calculus
-                    </h4>
+                    <h4 className="font-medium text-sm sm:text-base text-foreground">Computer Science</h4>
                     <p className="text-xs sm:text-sm text-muted-foreground">College of San Mateo, California</p>
                   </div>
+                  <span className="text-xs sm:text-sm text-muted-foreground mt-1 sm:mt-0">2014 - 2015</span>
+                </div>
+              </div>
+
+              <div className="border rounded-lg p-3 sm:p-4 bg-white dark:bg-white/5">
+                <div className="flex flex-col sm:flex-row sm:items-start justify-between">
+                  <div>
+                    <h4 className="font-medium text-sm sm:text-base text-foreground">Economics</h4>
+                    <p className="text-xs sm:text-sm text-muted-foreground">Paris School of Business, France</p>
+                  </div>
+                  <span className="text-xs sm:text-sm text-muted-foreground mt-1 sm:mt-0">2012 - 2014</span>
                 </div>
               </div>
             </div>

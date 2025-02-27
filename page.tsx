@@ -48,8 +48,8 @@ export default function Page() {
       case "about":
         newLines.push(
           "Thomas Noulelis",
-          "AI & Digital Transformation PM with 7 years of experience",
-          "Currently Technical Lead at TED AI",
+          "AI & Product Management Innovator | Data-Driven Leader",
+          "M.S. in Digital Technology & Product Management from HETIC (Grande École Program)",
           "",
         )
         break
@@ -58,18 +58,19 @@ export default function Page() {
           "Email: Thomas.Noulelis@gmail.com",
           "Phone: +33 6 18 48 51 68",
           "LinkedIn: /in/thomas-noulelis",
-          "Location: Nice",
+          "Location: Nice, France",
           "",
         )
         break
       case "skills":
         newLines.push(
           "Technical Skills:",
-          "- Product Management & Strategy",
-          "- AI & Digital Transformation",
-          "- UX Design & Figma",
-          "- Data Analytics",
-          "- Project Management",
+          "- Product Management & Roadmap",
+          "- AI Innovation",
+          "- Stakeholder Management",
+          "- UX Design (Figma)",
+          "- Data Analytics (Looker)",
+          "- Agile/Scrum",
           "",
           "Languages:",
           "- French (Native)",
@@ -157,21 +158,14 @@ export default function Page() {
                 totalWindows={activeWindows.length}
                 isWelcome={true}
               >
-                <div className="p-8 max-w-lg">
-                  <h1 className="text-2xl font-bold mb-4">👋 Welcome to my Portfolio</h1>
+                <div className="p-4 sm:p-8 max-w-lg">
+                  <h1 className="text-xl sm:text-2xl font-bold mb-4">👋 Welcome to my Interactive Portfolio</h1>
                   <div className="space-y-4 text-sm text-muted-foreground">
                     <p>
-                      This is an interactive portfolio designed to showcase my experience in AI and digital
-                      transformation. Here's how to navigate:
+                      I'm Thomas, an AI & Product Management leader passionate about building impactful products. My
+                      portfolio features an AI assistant to help you explore my experience in transforming businesses
+                      through AI innovation.
                     </p>
-                    <div className="space-y-2">
-                      <p className="font-medium text-foreground">Navigation:</p>
-                      <ul className="list-disc pl-4 space-y-1">
-                        <li>Click the icons in the dock to explore different sections</li>
-                        <li>Use the window controls to manage windows</li>
-                        <li>Try the terminal for a command-line experience</li>
-                      </ul>
-                    </div>
                     <div className="space-y-2">
                       <p className="font-medium text-foreground">Available Sections:</p>
                       <ul className="list-disc pl-4 space-y-1">
@@ -179,10 +173,22 @@ export default function Page() {
                         <li>Projects - View my key achievements and experiences</li>
                         <li>Skills - Explore my technical skills and languages</li>
                         <li>Contact - Get in touch with me</li>
-                        <li>Terminal - Try commands like 'help', 'about', 'skills'</li>
                       </ul>
                     </div>
-                    <p>Click any icon in the dock to begin exploring!</p>
+                    <div className="mt-6 p-3 bg-muted/50 rounded-lg">
+                      <p className="font-medium text-foreground">💡 Quick Start:</p>
+                      <ul className="mt-2 space-y-1">
+                        <li>
+                          Click the <span className="font-medium text-foreground">Bot icon</span> to chat with my AI
+                          assistant
+                        </li>
+                        <li>Try asking: "What was your role at TED AI?"</li>
+                        <li>Or: "Tell me about your experience with AI products"</li>
+                      </ul>
+                    </div>
+                    <p className="text-xs text-muted-foreground mt-4">
+                      Click anywhere to dismiss this window and start exploring!
+                    </p>
                   </div>
                 </div>
               </Window>

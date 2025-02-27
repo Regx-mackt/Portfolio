@@ -163,8 +163,8 @@ export default function Page() {
                 <h1 className="text-xl sm:text-2xl font-bold mb-4">👋 Welcome to my Portfolio</h1>
                 <div className="space-y-4 text-sm text-muted-foreground">
                   <p>
-                    This is an interactive portfolio designed to showcase my experience in AI and digital
-                    transformation. Here's how to navigate:
+                    This is an interactive portfolio designed to showcase my experience in AI and product management.
+                    Here's how to navigate:
                   </p>
                   <div className="space-y-2">
                     <p className="font-medium text-foreground">Navigation:</p>

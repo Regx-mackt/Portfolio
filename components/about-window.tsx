@@ -31,17 +31,15 @@ export function AboutWindow({ onClose, onMaximize, isMaximized, totalWindows }: 
           <div className="flex-1 min-w-0 text-center">
             <h1 className="text-xl sm:text-2xl font-bold mb-2 text-foreground">Thomas Noulelis</h1>
             <h2 className="text-base sm:text-lg text-muted-foreground mb-4">
-              AI & Digital Transformation Product Manager
+              AI & Product Management Innovator | Data-Driven Leader
             </h2>
             <div className="space-y-4 max-w-xl mx-auto xl:mx-0">
               <p className="text-xs sm:text-sm text-muted-foreground leading-relaxed">
-                I'm a Product Manager with 7+ years of experience bridging AI and business strategy to create
-                meaningful, data-driven products. I enjoy guiding cross-functional teams to solve complex problems, from
-                healthcare innovations to cutting-edge AI in music.
+                Results-oriented Product Manager with 5+ years driving AI and digital innovation. Pivoted Snowcrash to
+                generative AI in 3 months and led TED AI to launch a groundbreaking conference.
               </p>
               <p className="text-xs sm:text-sm text-muted-foreground leading-relaxed">
-                My approach is rooted in thorough research, user-centric design, and clear communication—always aiming
-                to deliver value that resonates with both end users and stakeholders.
+                I excel at turning vision into action with data, agility, and cross-functional collaboration.
               </p>
             </div>
           </div>
