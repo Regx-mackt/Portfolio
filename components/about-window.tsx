@@ -35,8 +35,7 @@ export function AboutWindow({ onClose, onMaximize, isMaximized, totalWindows }: 
             </h2>
             <div className="space-y-4 max-w-xl mx-auto xl:mx-0">
               <p className="text-xs sm:text-sm text-muted-foreground leading-relaxed">
-                Results-oriented Product Manager with 5+ years driving AI and digital innovation. Pivoted Snowcrash to
-                generative AI in 3 months and led TED AI to launch a groundbreaking conference.
+                Results-oriented Product Manager with 5+ years driving AI and digital innovation.
               </p>
               <p className="text-xs sm:text-sm text-muted-foreground leading-relaxed">
                 I excel at turning vision into action with data, agility, and cross-functional collaboration.
